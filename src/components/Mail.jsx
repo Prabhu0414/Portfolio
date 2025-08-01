@@ -13,7 +13,9 @@ export function Mail () {
     emailjs.sendForm(
         'service_va2dor4', 'template_djbjjk5', form.current,'t6AAYP6OlF53T1Pm_'
     ).then(() => {
-        alert("message sent to your gmail!");
+        alert("message sent ");
+
+        form.current.reset();
     }).catch(() => {
         alert("error sending message.");
     })
