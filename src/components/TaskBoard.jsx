@@ -2,7 +2,7 @@ import task from '../assets/taskboard_banner.png'
 
 export function TaskBoard() {
     return (
-        <div className=" overflow-y-scroll absolute w-full h-[calc(100vh-3rem)] text-white overflow-y-auto">
+       <div className="relative w-full h-[calc(100vh-3rem)] overflow-y-auto overflow-x-hidden ">
             <div className="w-full h-96 border rounded-2xl m-3 flex items-center justify-center overflow-hidden ">
                 <img
                     className="w-full h-full object-fill"
