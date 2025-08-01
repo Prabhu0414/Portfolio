@@ -3,7 +3,7 @@ import wonderweave2 from '../assets/ww_banner2.png'
 
 export function WonderWeave() {
   return (
-    <div className="relative h-screen overflow-y-scroll">
+    <div className="overflow-y-scroll absolute w-full h-[calc(100vh-3rem)] text-white overflow-y-auto">
       <div className="w-full h-96 border rounded-2xl m-3 flex items-center justify-center overflow-hidden ">
         <img
           className="w-full h-full object-fill"
@@ -13,7 +13,7 @@ export function WonderWeave() {
       </div>
 
 
-      <div className='mx-24 -mt-36 relative z-10'>
+      <div className='mx-24 -mt-36 '>
         <div className="bg-gray-900 text-white p-10 rounded-xl max-w-5xl mx-auto shadow-lg">
 
 

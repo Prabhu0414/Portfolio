@@ -12,6 +12,7 @@ import { Experince } from './components/Experince';
 import { WonderWeave } from './components/WonderWeave';
 import { ExpenseManagement } from './components/ExpenseManagement';
 import { TaskBoard } from './components/TaskBoard';
+import { ExperincePage } from './pages/ExperincePage';
 
 function App() {
   const [showExplorer, setShowExplorer] = useState(false);
@@ -74,7 +75,7 @@ function App() {
             {activeComponent === 'skills' && <Skills />}
             {activeComponent === 'mail' && <Mail />}
             {activeComponent === 'project' && <Project />}
-            {activeComponent === 'experince' && <Experince />}
+            {activeComponent === 'experince' && <ExperincePage />}
             {activeComponent === 'wonderweave' && <WonderWeave />}
             {activeComponent === 'expensemanagment' && <ExpenseManagement />}
             {activeComponent == 'taskboard' && <TaskBoard />}

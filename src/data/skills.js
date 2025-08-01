@@ -2,7 +2,7 @@ import javascript from '../assets/javascript-266x300.png';
 import typescript from '../assets/800px-Typescript.svg.png';
 import react from '../assets/react.png';
 import vscode from '../assets/vs_logo_bg-removebg-preview.png';
-import java from '../assets/java (1).png';
+import java from '../assets/java.png';
 import canva from '../assets/Canva.webp';
 import figma from '../assets/figma.png';
 import git from '../assets/git.png';
