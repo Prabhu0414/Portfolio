@@ -83,7 +83,7 @@ function App() {
       </div>
 
       {/* Footer */}
-      <div className='z-10'><Footer /></div>
+      <div className='z-10 relative'><Footer /></div>
     </div>
   );
 }

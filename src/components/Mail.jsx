@@ -35,7 +35,7 @@ export function Mail () {
                 <div className="w-72 md:w-[440px]">
                     <textarea className="h-20 w-full row{1} mt-4 rounded-lg pl-2 pr-2" name="message" id="" placeholder="Message"></textarea>
                     </div>
-                <button className="h-12 w-24 bg-indigo-600 text-white mt-4 rounded-lg font-bold" type="submit">Sumbit</button>
+                <button className="h-12 w-24 bg-indigo-600 text-white mt-4 rounded-lg font-bold" type="submit">Submit</button>
             </form>
         </div>
     )
