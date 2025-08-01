@@ -24,7 +24,7 @@ export function Mail () {
     }
 
     return (
-        <div className="md:flex md:items-center w-screen md:mt-[12%]">
+        <div className="md:flex md:items-center w-full md:mt-[12%]">
             <div className="flex flex-col  text-white basis-[40%]">
                 <p className="text-3xl md:text-4xl text-left md:text-center ml-4 mt-4 md:ml-0 md:mt-0 font-bold md:font-extrabold tracking-tight">Get In Touch</p>
                 <p className=" text-lg text-left md:text-center ml-4 mt-2 md:ml-0 md:mt-0 font-medium text-gray-600">Fill the Form To Converstation</p>
