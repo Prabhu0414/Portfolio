@@ -1,4 +1,3 @@
-
 import java from '../assets/java.png';
 import javascript from '../assets/javascript-266x300.png';
 import typescript from '../assets/800px-Typescript.svg.png';
